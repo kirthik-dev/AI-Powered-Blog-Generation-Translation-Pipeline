@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Web Server
+fastapi~=0.110.0
+uvicorn[standard]~=0.29.0
+python-dotenv~=1.0.1
+
+# LangChain Core and Integrations
+# These specific versions are known to work together and fix the '__start__' error
+langchain~=0.1.16
+langchain-core~=0.1.48
+langchain-openai~=0.1.3
+langgraph~=0.0.37
+
+# Pydantic (dependency, but good to pin)
+pydantic~=2.7.0
